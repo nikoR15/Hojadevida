@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  background: white;
+  background-image: url(./images/fondo.jpg);
+}
+
+#header{
+  /* border-radius: 0.5rem; */
+  margin: 1rem 2rem 1rem 2rem;
+  /* background: rgb(11, 22, 89); */
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+#img{
+  padding: 1rem 1rem 1rem 10rem;
+  width: 6rem;
+}
+
+#name{
+  margin-left: 37rem;
+  font-size: 3.5rem;
+}
+
+
+#content{
+  margin:2rem 1rem 2rem 1rem;
+  height: 38rem;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.div1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1rem;
+  color: white;
+  /* background: rgb(11, 22, 89); */
+}
+
+#h2{
+  margin-top: 4rem;
+  font-size: 3.5rem;
+}
+
+#p-descripcion{
+  text-align: justify;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.div2{
+  margin-right: 2rem;
+  /* background: rgb(11, 22, 89); */
+  color: white;
+}
+
+
+#h22{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.p{
+  margin-left: 14rem;
+  font-size: 3rem;
+  text-decoration: none;
+  color: white;
+}
+
+.img1{
+  margin-top: 3rem;
+  margin-left: 1rem;
+  height: 13rem;
+  transition: all 0.30s;
+}
+
+.div2 .img1:hover{
+  background-color: rgb(236,222,145);
+transform: translateY(-25px);
+}
+
+.img2{
+  height: 13rem;
+  margin-left: 0.5rem;
+  transition: all 0.25s;
+}
+
+.div2 .img2:hover{
+  background-color: rgb(236,222,145);
+transform: translateY(-15px);
+}
+
+.img3{
+  margin-left: 0.5rem;
+  height: 13rem;
+  transition: all 0.25s;
+}
+
+.div2 .img3:hover{
+  background-color: rgb(236,222,145);
+transform: translateY(-15px);
+}
+
+#footer{
+  color: white;
+  /* border-radius: 0.5rem; */
+  height: 7rem;
+  /* margin: 1rem 2rem 0rem 2rem; */
+  font-size: 3rem;
+  /* background: rgb(11, 22, 89); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
